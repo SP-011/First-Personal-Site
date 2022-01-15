@@ -1,0 +1,206 @@
+body {
+    background-color: azure;
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Montaga', serif; */
+    
+}
+
+hr {
+    border-color:rgba(111, 134, 7, 0.603);
+    border-style:none none dotted;
+    border-width: 7px;
+    width: 4%;
+}
+
+h1 {
+    line-height: 1.5;
+    position: relative;
+    top: 60px;
+    font-size: 5.625rem;
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
+    /* font-family: 'Stalemate', cursive; */
+    /* font-family: 'Clicker Script', cursive; */
+    /* font-family: 'Ephesis', cursive; */
+
+    color: rgb(160, 214, 10);
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(160, 214, 10);
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(160, 214, 10); */
+    margin-right: 27%;
+    margin-left: 27%;
+    line-height: 2;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+.top {
+    background-color: rgba(219, 226, 186, 0.603);
+    width: 100%;
+    height: 660px;
+    padding-top: 100px;
+}
+
+
+.middle {
+    background-color: azure;
+    width: 100%;
+    /* height: 580px; */
+    /* padding-top: 100px; */
+}
+.bottom {
+    width: 100%;
+    margin-top: 0px;
+    /* height: 580px; */
+    
+}
+
+.cloud1 {
+    position: absolute;
+    right: 20%;
+    top: 30px;
+    animation: 111s cloud1 infinite alternate linear;
+    animation-delay: -60s;
+}
+.cloud2 {
+    position: absolute;
+    left: 20%;
+}
+
+.mountain {
+    position: absolute;
+    left: 30%;
+    top: 314px;
+}
+
+.flag {
+    position: absolute;
+    left: 535px;
+    top: 433px;
+}
+
+h6 {
+    width: 16px;
+    height: 16px;
+    background: repeating-linear-gradient(rgba(157, 190, 7, 0.603),orange, yellow, rgb(207, 200, 104) 50px);
+    clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+    animation: 4s poly infinite alternate ease-in-out;
+    margin: 10px auto;
+}
+
+.edu {
+    margin-bottom: 0px;
+}
+    
+    @keyframes poly {
+    from {
+        clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+    }
+    
+    to {
+        clip-path: polygon(50% 30%, 100% 0%, 70% 50%, 100% 100%, 50% 70%, 0% 100%, 30% 50%, 0% 0%);
+    }
+}
+
+.btn {
+    background: rgba(222, 240, 144, 0.603);
+    background-image: -webkit-linear-gradient(top,rgba(204, 228, 98, 0.603), rgba(163, 184, 72, 0.603));
+    background-image: -moz-linear-gradient(top,rgba(202, 223, 110, 0.603), rgba(163, 184, 72, 0.603));
+    background-image: -ms-linear-gradient(top, rgba(204, 224, 111, 0.603), rgba(163, 184, 72, 0.603));
+    background-image: -o-linear-gradient(top, rgba(206, 226, 117, 0.603), rgba(163, 184, 72, 0.603));
+    background-image: linear-gradient(to bottom, rgba(205, 224, 120, 0.603), rgba(163, 184, 72, 0.603));   /* #89f5a4, #48bd6b)*/
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-width: 0px;
+    margin-bottom: 50px;
+    }
+    
+.btn:hover {
+    background: rgb(163, 202, 100);
+    background-image: -webkit-linear-gradient(top,  rgb(67, 94, 23));
+    background-image: -moz-linear-gradient(top, rgb(67, 93, 25));
+    background-image: -ms-linear-gradient(top,  rgb(71, 100, 25));
+    background-image: -o-linear-gradient(top,  rgb(76, 107, 26));
+    background-image: linear-gradient(to bottom,  rgb(79, 110, 28));
+    text-decoration: none;
+    }
+
+.connect {
+    padding: 4px;
+    background-color: rgba(222, 240, 144, 0.603);
+    padding-bottom: 40px;
+}
+
+.link:hover {
+    /* color: #0a1f04; */
+    color: rgb(87, 121, 32);
+}
+
+.link {
+    margin:30% 2%
+}
+
+a {
+    color: rgba(150, 175, 58, 0.603);
+    text-decoration: none;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.form {
+    margin: 60px auto 60px;
+}
+
+.copyright {
+    color: rgba(150, 175, 58, 0.603);
+    font-size: 0.95rem;
+    margin-top: 30px;
+}
+
+.sketches {
+    color: #40514E;
+}
+
+.sketches .hovtxt {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(222, 240, 144, 0.603);
+    /* color: rgb(87, 121, 32); */
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+
+    top: 307%;
+    left: 52%;
+}
+.sketches:hover .hovtxt {
+    color:rgba(150, 175, 58, 0.603);
+    visibility: visible;
+}
+
+@keyframes cloud1 {
+    from {left:0px}
+    to {left:90%}
+} 
+
